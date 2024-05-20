@@ -1,0 +1,52 @@
+project:
+  type: website
+  title: "Eine Einführung in R"
+  output-dir: _site
+  render:
+    - "index.qmd"
+    - "material/kursplan.qmd"
+website:
+  title: "Einführung in R (FS2024)"
+  page-navigation: true
+  reader-mode: true
+  open-graph: true
+  search:
+    location: navbar
+    type: textbox
+  sidebar:
+    style: docked
+    contents:
+      - href: index.qmd
+        text: "🏠 Home"
+
+  navbar:
+    background: primary
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+  page-footer:
+    background: light
+    left: "Copyright 2024, Claudius Gräbner-Radkowitsch" 
+
+format:
+  html:
+    author: Prof. Dr. [Claudius Gräbner-Radkowitsch](#)
+    author-meta: Prof. Dr. Claudius Gräbner-Radkowitsch
+    date-format: "DD MM YYYY"
+
+    email-obfuscation: javascript
+    link-external-newwindow: true
+    link-external-icon: false
+    theme: 
+      light:
+        - journal
+        - css/custom.scss
+    mainfont: "Gill Sans" # sans-serif
+    toc: true
+
+bibliography: references/references.bib
+csl: references/jepp.csl
+
+editor: visual
+
