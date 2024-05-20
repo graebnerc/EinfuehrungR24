@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: "b5c44321-ed66-4d7c-bc0f-6c003063695c"
+      url: "https://einfuehrung-r-2024.netlify.app"
