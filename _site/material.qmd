@@ -1,0 +1,16 @@
+---
+title: "Materialübersicht"
+---
+
+Das Material ist sortiert nach den drei Präsenztagen. Zu jedem Tag findet ihr
+Informationen über notwendige Vorbereitungen und Infos zu Nachbereitung.
+Bitte beachtet, dass es für das Gelingen des Kurses unbedingt erforderlich ist,
+dass ihr die vorbereitenden Aktivitäten auch durchführt. Sonst funktioniert das
+Konzept nicht. 
+
+Wenn sich zwischen den Terminen Fragen ergeben oder ihr Ideen teilen wollt,
+nutzt bitte das [Kursforum](https://github.com/graebnerc/EinfuehrungR24/discussions).
+
+- [Infos zu Tag 1](Session-01.qmd)
+- [Infos zu Tag 2](Session-02.qmd)
+- [Infos zu Tag 3](Session-03.qmd)

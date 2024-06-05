@@ -4,7 +4,8 @@ project:
   output-dir: _site
   render:
     - "index.qmd"
-    - "material/kursplan.qmd"
+    - "material/index.qmd"
+    - "material/Session-01.qmd"
 website:
   title: "Einführung in R (FS2024)"
   page-navigation: true
@@ -18,13 +19,20 @@ website:
     contents:
       - href: index.qmd
         text: "🏠 Home"
+      - section: "🗓️ Material"
+        contents:
+        - href: material/index.qmd
+          text: "⁉ Übersicht und Infos"
+        - href: material/Session-01.qmd
+          text: "Tag 1"
 
   navbar:
     background: primary
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: material.qmd
+        text: Material
   page-footer:
     background: light
     left: "Copyright 2024, Claudius Gräbner-Radkowitsch" 

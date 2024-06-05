@@ -1,0 +1,17 @@
+---
+title: "Tag 1: Installation, Grundlagen und Projekt Management"
+---
+
+# Vorbereitung
+
+*Bitte die folgenden Schritte bereits vor unserer Session durchführen und *
+*bei Problemen ins Kursforum schreiben.*
+
+- Installation
+- R Pakete installieren und testen
+
+# Outline
+
+# Material
+
+# Nacharbeitung

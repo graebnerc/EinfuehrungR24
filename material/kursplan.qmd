@@ -1,0 +1,18 @@
+---
+title: "Kursplan"
+---
+
+# Schedule
+
+|     Time      |                                   Topic                                   |          Presenter           |
+|:--------------:|:---------------------------------------:|:--------------:|
+| 11:00 - 11:30 |       [Session 1: Get Started with Julia](session1-get-started.qmd)       |     Claudia Solis-Lemus      |
+| 11:30 - 12:30 | [Session 2a: Data Tables and Arrow files](session2a-tables-and-arrow.qmd) |        Douglas Bates         |
+| 12:30 - 1:00  |      [Session 2b: Interval Overlap](session2b-interval-overlap.qmd)       |        Douglas Bates         |
+|  1:00 - 2:00  |                                Lunch break                                |                              |
+|  2:00 - 3:00  |                         Session 3: Model fitting                          |                              |
+|  3:00 - 4:00  |           [Session 4: Hands-on exercise](session4-exercise.qmd)           | Sam Ozminkowski and Bella Wu |
+|  4:00 - 4:15  |                               Coffee break                                |                              |
+|  4:15 - 5:00  |          Presentation of selected participants' scripts and Q&A           |                              |
+|  5:00 - 5:30  | [Session 5: Other important Data Science tools](session5-other-tools.qmd) |     Claudia Solis-Lemus      |
+|  5:30 - 6:00  |     [Session 6: Conclusions and questions](session6-conclusions.qmd)      |     Claudia Solis-Lemus      |
