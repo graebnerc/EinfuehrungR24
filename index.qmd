@@ -9,69 +9,47 @@ format:
     author: "Prof. Dr. Claudius Gräbner-Radkowitsch"
 ---
 
-
 # 📑 Über den Kurs
 
-**Ziel:** 
-Der Kurs richtet sich an Beginner mit wenig oder keinen Vorkenntnissen in R. 
-Am Ende des Kurses werdet ihr in der Lage sein, ein R Projekt zu erstellen, 
-eine übersichtliche Arbeitsumgebung zu erstellen, eure Daten einzulesen, 
-aufzubereiten und zum Zwecke der Datenbeschreibung und explorativen 
-Datenanalyse zu visualisieren.
+**Ziel:** Der Kurs richtet sich an Beginner mit wenig oder keinen Vorkenntnissen in R. Am Ende des Kurses werdet ihr in der Lage sein, ein R Projekt zu erstellen, eine übersichtliche Arbeitsumgebung zu erstellen, eure Daten einzulesen, aufzubereiten und zum Zwecke der Datenbeschreibung und explorativen Datenanalyse zu visualisieren.
 
-**Arbeitsweise:** 
-Der Kurs besteht aus drei bis vier Präsenzterminen und Lernvideos. Der Fokus 
-der Präsenzmeetings liegt auf der Klärung von Fragen, der Diskussion besonders 
-schwieriger Konzepte und auf Übungen. Die  tatsächliche Einführung von Konzepten 
-geschieht über Lenrvideos zwischen den Meetings, sodass alle ihr Lernthempo 
-selbst optimal wählen können.
+**Arbeitsweise:** Der Kurs besteht aus drei bis vier Präsenzterminen und Lernvideos. Der Fokus der Präsenzmeetings liegt auf der Klärung von Fragen, der Diskussion besonders schwieriger Konzepte und auf Übungen. Die tatsächliche Einführung von Konzepten geschieht über Lenrvideos zwischen den Meetings, sodass alle ihr Lernthempo selbst optimal wählen können.
 
-**Voraussetzungen:**
-Der Kurs setzt keine vorherigen R-Kenntnisse voraus. Es wird aber die 
-Bereitschaft vorausgesetzt, zwischen den Meeting 2-3 Stunden Lehrvideos 
-anzuschauen und ggf. Fragen im Kursforum zu stellen, sowie erste Übungen selbst
-durchzuführen. Zudem muss die notwendige Software auf dem eigenen Computer 
-installiert und der Laptop mitgebracht werden.
+**Voraussetzungen:** Der Kurs setzt keine vorherigen R-Kenntnisse voraus. Es wird aber die Bereitschaft vorausgesetzt, zwischen den Meeting 2-3 Stunden Lehrvideos anzuschauen und ggf. Fragen im Kursforum zu stellen, sowie erste Übungen selbst durchzuführen. Zudem muss die notwendige Software auf dem eigenen Computer installiert und der Laptop mitgebracht werden.
 
 # 🎯 Lernziele
 
-- Das GUI R-Studio in seinen Grundfunktionen bedienen können
-- Grundlegende Rechenoperationen in `R` durchführen
-- Eine R-Projektumgebung erstellen und Verständnis von Datenmanagement und das
-richtige Speichern von Daten entwickeln
-- Daten in R einlesen
-- Rohdaten mit den Paketen `tidyr` und `dplyr` in 'tidy data' zu überführen
-- Aus 'tidy data' Visualisierungen mit dem Paket `ggplot2` erstellen können
+-   Das GUI R-Studio in seinen Grundfunktionen bedienen können
+-   Grundlegende Rechenoperationen in `R` durchführen
+-   Eine R-Projektumgebung erstellen und Verständnis von Datenmanagement und das richtige Speichern von Daten entwickeln
+-   Daten in R einlesen
+-   Rohdaten mit den Paketen `tidyr` und `dplyr` in 'tidy data' zu überführen
+-   Aus 'tidy data' Visualisierungen mit dem Paket `ggplot2` erstellen können
 
 # 📆 Kursplan
 
-Die Termine finden jeweils 9:00 - 12:00 im Raum RIG 717 auf dem Campus statt.
+Die Termine finden jeweils 9:00 - 12:15 im Raum RIG 717 auf dem Campus statt.
 
-**Tag 1 (1. Juli 2024):** 
+**Tag 1 (1. Juli 2024):**
 
-- Installation, Grundlagen und Projekt Management 
+-   Installation, Grundlagen und Projekt Management
 
-**Tag 2 (8. Juli 2024):** 
+**Tag 2 (8. Juli 2024):**
 
-- Daten einlesen und aufbereiten 
+-   Daten einlesen und aufbereiten
 
-**Tag 3 (15. Juli 2024):** 
+**Tag 3 (15. Juli 2024):**
 
-- Datenvisualisierung 
+-   Datenvisualisierung
 
 **Tag 4 (TBD):**
 
-- Optionaler Extratermin zur Diskussion von aufgekommenen Fragen
+-   Optionaler Extratermin zur Diskussion von aufgekommenen Fragen
 
 Genauere Infos gibt es auf den Seiten im Bereich 'Material'.
 
 # 📬 Forum
 
-Es gibt ein offenes Kursforum, über das ich Ankündigungen mache und in dem
-wir uns austauschen und ihr Fragen stellen könnt. Das Forum ist über 
-Github implementiert und über 
-[diesen Link](https://github.com/graebnerc/EinfuehrungR24/discussions) 
-erreichbar.
+Es gibt ein offenes Kursforum, über das ich Ankündigungen mache und in dem wir uns austauschen und ihr Fragen stellen könnt. Das Forum ist über Github implementiert und über [diesen Link](https://github.com/graebnerc/EinfuehrungR24/discussions) erreichbar.
 
-Damit ihr das Forum nutzen könnt müsst ihr für euch einen Github-Account 
-erstellen.
+Damit ihr das Forum nutzen könnt müsst ihr für euch einen Github-Account erstellen.

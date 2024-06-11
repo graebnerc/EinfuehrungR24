@@ -1,0 +1,16 @@
+---
+title: "Tag 3: Visualisierung"
+---
+
+# Vorbereitung
+
+*Bitte die folgenden Schritte bereits vor unserer Session durchführen und* *bei Problemen bitte ins* [Kursforum](https://github.com/graebnerc/EinfuehrungR24/discussions) *schreiben.*
+
+
+# Material
+
+-   Slides und Notizen werden nach dem Termin ergänzt
+
+# Nachbereitung
+
+Mit Hilfe der folgenden Materialien könnt ihr die Themen von Tag 3 selbstständig nacharbeiten:

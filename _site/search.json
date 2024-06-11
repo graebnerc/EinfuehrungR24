@@ -1,30 +1,72 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Eine Einführung in R",
+    "objectID": "material/Session-04.html",
+    "href": "material/Session-04.html",
+    "title": "Tag 4: Abschluss",
     "section": "",
-    "text": "📑 Über den Kurs\nZiel: Der Kurs richtet sich an Beginner mit wenig oder keinen Vorkenntnissen in R. Am Ende des Kurses werdet ihr in der Lage sein, ein R Projekt zu erstellen, eine übersichtliche Arbeitsumgebung zu erstellen, eure Daten einzulesen, aufzubereiten und zum Zwecke der Datenbeschreibung und explorativen Datenanalyse zu visualisieren.\nArbeitsweise: Der Kurs besteht aus drei bis vier Präsenzterminen und Lernvideos. Der Fokus der Präsenzmeetings liegt auf der Klärung von Fragen, der Diskussion besonders schwieriger Konzepte und auf Übungen. Die tatsächliche Einführung von Konzepten geschieht über Lenrvideos zwischen den Meetings, sodass alle ihr Lernthempo selbst optimal wählen können.\nVoraussetzungen: Der Kurs setzt keine vorherigen R-Kenntnisse voraus. Es wird aber die Bereitschaft vorausgesetzt, zwischen den Meeting 2-3 Stunden Lehrvideos anzuschauen und ggf. Fragen im Kursforum zu stellen, sowie erste Übungen selbst durchzuführen. Zudem muss die notwendige Software auf dem eigenen Computer installiert und der Laptop mitgebracht werden.\n\n\n🎯 Lernziele\n\nDas GUI R-Studio in seinen Grundfunktionen bedienen können\nGrundlegende Rechenoperationen in R durchführen\nEine R-Projektumgebung erstellen und Verständnis von Datenmanagement und das richtige Speichern von Daten entwickeln\nDaten in R einlesen\nRohdaten mit den Paketen tidyr und dplyr in ‘tidy data’ zu überführen\nAus ‘tidy data’ Visualisierungen mit dem Paket ggplot2 erstellen können\n\n\n\n📆 Kursplan\nDie Termine finden jeweils 9:00 - 12:00 im Raum RIG 717 auf dem Campus statt.\nTag 1 (1. Juli 2024):\n\nInstallation, Grundlagen und Projekt Management\n\nTag 2 (8. Juli 2024):\n\nDaten einlesen und aufbereiten\n\nTag 3 (15. Juli 2024):\n\nDatenvisualisierung\n\nTag 4 (TBD):\n\nOptionaler Extratermin zur Diskussion von aufgekommenen Fragen\n\nGenauere Infos gibt es auf den Seiten im Bereich ‘Material’.\n\n\n📬 Forum\nEs gibt ein offenes Kursforum, über das ich Ankündigungen mache und in dem wir uns austauschen und ihr Fragen stellen könnt. Das Forum ist über Github implementiert und über diesen Link erreichbar.\nDamit ihr das Forum nutzen könnt müsst ihr für euch einen Github-Account erstellen."
+    "text": "Vorbereitung\nBitte Themenvorschläge ins Kursforum schreiben.\n\n\nMaterial\n\nSlides und Notizen werden nach dem Termin ergänzt\n\n\n\nNachbereitung\n\nTBA"
   },
   {
-    "objectID": "material/kursplan.html",
-    "href": "material/kursplan.html",
-    "title": "Kursplan",
+    "objectID": "material/Session-02.html",
+    "href": "material/Session-02.html",
+    "title": "Tag 2: Daten einlesen und aufbereiten",
     "section": "",
-    "text": "Schedule\n\n\n\nTime\nTopic\nPresenter\n\n\n\n\n11:00 - 11:30\nSession 1: Get Started with Julia\nClaudia Solis-Lemus\n\n\n11:30 - 12:30\nSession 2a: Data Tables and Arrow files\nDouglas Bates\n\n\n12:30 - 1:00\nSession 2b: Interval Overlap\nDouglas Bates\n\n\n1:00 - 2:00\nLunch break\n\n\n\n2:00 - 3:00\nSession 3: Model fitting\n\n\n\n3:00 - 4:00\nSession 4: Hands-on exercise\nSam Ozminkowski and Bella Wu\n\n\n4:00 - 4:15\nCoffee break\n\n\n\n4:15 - 5:00\nPresentation of selected participants’ scripts and Q&A\n\n\n\n5:00 - 5:30\nSession 5: Other important Data Science tools\nClaudia Solis-Lemus\n\n\n5:30 - 6:00\nSession 6: Conclusions and questions\nClaudia Solis-Lemus"
+    "text": "Vorbereitung\nBitte die folgenden Schritte bereits vor unserer Session durchführen und bei Problemen bitte ins Kursforum schreiben.\n\nVideo Einführung, Daten Typen und Frames\nVideos zum Daten Import und Data Wrangling\n\n\n\nZeitplan\n\n\n\n\n\n\n\n\nZeit\nThema\nBescheibung\n\n\n\n\n9:00 - 9:30\nFragen und Übungen\nHier klären wir Fragen zu Übungen zu Tag 1 und vertiefen ggf. Konzepte, mit denen ihr Probleme hattet.\n\n\n9:35 - 10:15\nBlock 2.1: Einlesen von Daten\nAnhand von .csv Dateien üben wir, wie man mit data.table::fread() Daten einzulesen und dabei typische Schwierigkeiten überwinden kann.\n\n\n10:30 - 10:45\nDer Analyse-Workflow und das Konzept von ‘tidy data’\nDie Arbeit mit empirischen Daten folgt immer einem bestimmten Ablauf. Die einzelnen Schritte klar zu strukturieren hilft in der Praxis die Übersicht zu behalten. Zentral ist dabei die Aufgabe Rohdaten in so genannte ‘tidy data’ zu transformieren.\n\n\n10:45 - 11:15\nBlock 2.2: Data Wrangling\nWir klären Fragen zum Video-Input zum Themenbereich ‘data wrangling’ und lösen in der Gruppe Übungsaufgaben.\n\n\n11:30 - 12:00\nBlock 2.3.: Data Manipulation\nWir klären Fragen zum Video-Input zum Themenbereich ‘data manipulation’ und lösen in der Gruppe Übungsaufgaben.\n\n\n12:00 - 12:15\nAusblick, Fragen und Erläuterung der Take-Home Aufgaben\n\n\n\n\n\n\nMaterial\n\nSlides und Notizen werden nach dem Termin ergänzt\n\n\n\nNachbereitung\nMit Hilfe der folgenden Materialien könnt ihr die Themen von Tag 2 selbstständig nacharbeiten:"
   },
   {
     "objectID": "material/index.html",
     "href": "material/index.html",
-    "title": "Materialübersicht",
+    "title": "Materialübersicht und Kursplan",
     "section": "",
-    "text": "Das Material ist sortiert nach den drei Präsenztagen. Zu jedem Tag findet ihr Informationen über notwendige Vorbereitungen und Infos zu Nachbereitung. Bitte beachtet, dass es für das Gelingen des Kurses unbedingt erforderlich ist, dass ihr die vorbereitenden Aktivitäten auch durchführt. Sonst funktioniert das Konzept nicht.\nWenn sich zwischen den Terminen Fragen ergeben oder ihr Ideen teilen wollt, nutzt bitte das Kursforum.\n\nInfos zu Tag 1\nInfos zu Tag 2\nInfos zu Tag 3"
+    "text": "Das Material ist sortiert nach den drei Präsenztagen. Zu jedem Tag findet ihr Informationen über notwendige Vorbereitungen und Infos zu Nachbereitung. Bitte beachtet, dass es für das Gelingen des Kurses unbedingt erforderlich ist, dass ihr die vorbereitenden Aktivitäten auch durchführt. Sonst funktioniert das Konzept nicht.\nWenn sich zwischen den Terminen Fragen ergeben oder ihr Ideen teilen wollt, nutzt bitte das Kursforum."
+  },
+  {
+    "objectID": "material/index.html#tag-1",
+    "href": "material/index.html#tag-1",
+    "title": "Materialübersicht und Kursplan",
+    "section": "Tag 1",
+    "text": "Tag 1\n\n\n\nZeit\nThema\nBescheibung\n\n\n\n\n9:00 - 9:30\nInstallationsassistenz (optional)\nOptional, nur für Teilnehmer:innen, die Probleme bei der Installation hatten. Bitte meldet euch vorab per E-Mail oder im Kursforum ob und ja in welcher Richtung ein Bedarf besteht. Für alle, die keine Probleme hatten beginnt der Kurs erst um 9:45.\n\n\n9:45 - 10:15\nBlock 1.1: Einleitung und Vorstellung\nHier stellen sich alle Teilnehmer:innen und ihre Bedarfe vor und das Kursprogramm wird kurz erläutert.\n\n\n10:15 - 10:45\nBlock 1.2: Grundlagen der Programmiersprache R\nHier beschäftigen wir uns damit was eine Programmiersprache eigentlich ist, in welcher Hinsicht R besonders ist und was das für die Praxis bedeutet. In diesem Kontext lernen wir auch was es mit Paketen und den unterschiedlichen R Dialekten auf sich hat.\n\n\n11:00 - 11:45\nBlock 1.3: Projektmanagement für R Projekte\nWir lernen wie wir ein Forschungsprojekt vorbereiten, welche Ordnerstruktur wir erstellen sollten und wo unsere Daten, Skripte und Outputs gespeichert werden sollten, damit unser Projekt transparent, reproduzierbar und gut zu dokumentieren ist.\n\n\n11:45 - 12:00\nAusblick, Fragen und Erläuterung der Take-Home Aufgaben"
+  },
+  {
+    "objectID": "material/index.html#tag-2",
+    "href": "material/index.html#tag-2",
+    "title": "Materialübersicht und Kursplan",
+    "section": "Tag 2",
+    "text": "Tag 2\n\n\n\n\n\n\n\n\nZeit\nThema\nBescheibung\n\n\n\n\n9:00 - 9:30\nFragen und Übungen\nHier klären wir Fragen zu Übungen zu Tag 1 und vertiefen ggf. Konzepte, mit denen ihr Probleme hattet.\n\n\n9:35 - 10:15\nBlock 2.1: Einlesen von Daten\nAnhand von .csv Dateien üben wir, wie man mit data.table::fread() Daten einzulesen und dabei typische Schwierigkeiten überwinden kann.\n\n\n10:30 - 10:45\nDer Analyse-Workflow und das Konzept von ‘tidy data’\nDie Arbeit mit empirischen Daten folgt immer einem bestimmten Ablauf. Die einzelnen Schritte klar zu strukturieren hilft in der Praxis die Übersicht zu behalten. Zentral ist dabei die Aufgabe Rohdaten in so genannte ‘tidy data’ zu transformieren.\n\n\n10:45 - 11:15\nBlock 2.2: Data Wrangling\nWir klären Fragen zum Video-Input zum Themenbereich ‘data wrangling’ und lösen in der Gruppe Übungsaufgaben.\n\n\n11:30 - 12:00\nBlock 2.3.: Data Manipulation\nWir klären Fragen zum Video-Input zum Themenbereich ‘data manipulation’ und lösen in der Gruppe Übungsaufgaben.\n\n\n12:00 - 12:15\nAusblick, Fragen und Erläuterung der Take-Home Aufgaben"
+  },
+  {
+    "objectID": "material/index.html#tag-3",
+    "href": "material/index.html#tag-3",
+    "title": "Materialübersicht und Kursplan",
+    "section": "Tag 3",
+    "text": "Tag 3"
+  },
+  {
+    "objectID": "material/index.html#tag-4",
+    "href": "material/index.html#tag-4",
+    "title": "Materialübersicht und Kursplan",
+    "section": "Tag 4",
+    "text": "Tag 4\nDieser Termin wird mehrere Wochen nach dem letzten Termin stattfinden und soll dafür genutzt werden, von den Teilnehmer:innen vorgeschlagene Themen aufzugreifen und zu vertiefen."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Eine Einführung in R",
+    "section": "",
+    "text": "📑 Über den Kurs\nZiel: Der Kurs richtet sich an Beginner mit wenig oder keinen Vorkenntnissen in R. Am Ende des Kurses werdet ihr in der Lage sein, ein R Projekt zu erstellen, eine übersichtliche Arbeitsumgebung zu erstellen, eure Daten einzulesen, aufzubereiten und zum Zwecke der Datenbeschreibung und explorativen Datenanalyse zu visualisieren.\nArbeitsweise: Der Kurs besteht aus drei bis vier Präsenzterminen und Lernvideos. Der Fokus der Präsenzmeetings liegt auf der Klärung von Fragen, der Diskussion besonders schwieriger Konzepte und auf Übungen. Die tatsächliche Einführung von Konzepten geschieht über Lenrvideos zwischen den Meetings, sodass alle ihr Lernthempo selbst optimal wählen können.\nVoraussetzungen: Der Kurs setzt keine vorherigen R-Kenntnisse voraus. Es wird aber die Bereitschaft vorausgesetzt, zwischen den Meeting 2-3 Stunden Lehrvideos anzuschauen und ggf. Fragen im Kursforum zu stellen, sowie erste Übungen selbst durchzuführen. Zudem muss die notwendige Software auf dem eigenen Computer installiert und der Laptop mitgebracht werden.\n\n\n🎯 Lernziele\n\nDas GUI R-Studio in seinen Grundfunktionen bedienen können\nGrundlegende Rechenoperationen in R durchführen\nEine R-Projektumgebung erstellen und Verständnis von Datenmanagement und das richtige Speichern von Daten entwickeln\nDaten in R einlesen\nRohdaten mit den Paketen tidyr und dplyr in ‘tidy data’ zu überführen\nAus ‘tidy data’ Visualisierungen mit dem Paket ggplot2 erstellen können\n\n\n\n📆 Kursplan\nDie Termine finden jeweils 9:00 - 12:15 im Raum RIG 717 auf dem Campus statt.\nTag 1 (1. Juli 2024):\n\nInstallation, Grundlagen und Projekt Management\n\nTag 2 (8. Juli 2024):\n\nDaten einlesen und aufbereiten\n\nTag 3 (15. Juli 2024):\n\nDatenvisualisierung\n\nTag 4 (TBD):\n\nOptionaler Extratermin zur Diskussion von aufgekommenen Fragen\n\nGenauere Infos gibt es auf den Seiten im Bereich ‘Material’.\n\n\n📬 Forum\nEs gibt ein offenes Kursforum, über das ich Ankündigungen mache und in dem wir uns austauschen und ihr Fragen stellen könnt. Das Forum ist über Github implementiert und über diesen Link erreichbar.\nDamit ihr das Forum nutzen könnt müsst ihr für euch einen Github-Account erstellen."
   },
   {
     "objectID": "material/Session-01.html",
     "href": "material/Session-01.html",
     "title": "Tag 1: Installation, Grundlagen und Projekt Management",
     "section": "",
-    "text": "Vorbereitung\nBitte die folgenden Schritte bereits vor unserer Session durchführen und  bei Problemen ins Kursforum schreiben.\n\nInstallation\nR Pakete installieren und testen\n\n\n\nOutline\n\n\nMaterial\n\n\nNacharbeitung"
+    "text": "Vorbereitung\nBitte die folgenden Schritte bereits vor unserer Session durchführen und bei Problemen bitte ins Kursforum schreiben.\nDamit ihr das Kursforum verwenden könnt (und auch aus vielen anderen praktischen Gründen) solltet ihr euch einen Account bei Github erstellen.\nDanach solltet rhr R und R-Studio sowie die in diesem Kurs benötigten Pakete installieren. Dazu findet ihr hier jeweils eine ausführliche Anleitung (auf Englisch):\n\nInstallation von R und R-Studio\nInstallation der R-Pakete\n\nDarüber hinaus solltet ihr euch mit den interaktiven Übungen für diesen Kurs vertraut machen. Auch dazu gibt es eine Anleitung:\n\nInteraktive Übungen verwenden\n\nZur Installation von R und R-Studio gibt es auch englischsprachige Videos, in denen ihr Schritt für Schritt durch den Installationsprozess geleitet werden.\n\n\n\n\n\n\nDirekter Zugriff auf die Videos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nZeitplan\n\n\n\nZeit\nThema\nBescheibung\n\n\n\n\n9:00 - 9:30\nInstallationsassistenz (optional)\nOptional, nur für Teilnehmer:innen, die Probleme bei der Installation hatten. Bitte meldet euch vorab per E-Mail oder im Kursforum ob und ja in welcher Richtung ein Bedarf besteht. Für alle, die keine Probleme hatten beginnt der Kurs erst um 9:45.\n\n\n9:45 - 10:15\nBlock 1.1: Einleitung und Vorstellung\nHier stellen sich alle Teilnehmer:innen und ihre Bedarfe vor und das Kursprogramm wird kurz erläutert.\n\n\n10:15 - 10:45\nBlock 1.2: Grundlagen der Programmiersprache R\nHier beschäftigen wir uns damit was eine Programmiersprache eigentlich ist, in welcher Hinsicht R besonders ist und was das für die Praxis bedeutet. In diesem Kontext lernen wir auch was es mit Paketen und den unterschiedlichen R Dialekten auf sich hat.\n\n\n11:00 - 11:45\nBlock 1.3: Projektmanagement für R Projekte\nWir lernen wie wir ein Forschungsprojekt vorbereiten, welche Ordnerstruktur wir erstellen sollten und wo unsere Daten, Skripte und Outputs gespeichert werden sollten, damit unser Projekt transparent, reproduzierbar und gut zu dokumentieren ist.\n\n\n11:45 - 12:00\nAusblick, Fragen und Erläuterung der Take-Home Aufgaben\n\n\n\n\n\n\nMaterial\n\nSlides und Notizen werden nach dem Termin ergänzt\n\n\n\nNachbereitung\nMit Hilfe der folgenden Materialien könnt ihr die Themen von Tag 1 selbstständig nacharbeiten:\nBlock 1.2: Grundlagen der Programmiersprache R\n\nTutorial Erste Schritte in R\nEnglischsprachige Lehrvideos\nKapitel 2 in Wickham et al. (2023).\nDie praktischen Übungen Basics aus dem Paket DataScienceExercises:\n\n\n\n\n\n\n\nCode um die praktischen Übungen zu starten\n\n\n\n\n\n\nlearnr::run_tutorial(\n  name = \"Basics\", \n  package = \"DataScienceExercises\", \n  shiny_args=list(\"launch.browser\"=TRUE))\n\n\n\n\nBlock 1.3: Projektmanagement für R Projekte\n\nTutorial zum Aufsetzen eines R-Projekts (auf Englisch)\nDie praktischen Übungen ProjectOrga aus dem Paket DataScienceExercises:\n\n\n\n\n\n\n\nCode um die praktischen Übungen zu starten\n\n\n\n\n\n\nlearnr::run_tutorial(\n  name = \"ProjectOrga\", \n  package = \"DataScienceExercises\", \n  shiny_args=list(\"launch.browser\"=TRUE))\n\n\n\n\nBei Fragen, insbesondere wenn es Probleme bei den Übungen gibt, nutzt bitte das Kursforum. Die Fragen kann ich entweder direkt beantworten, oder ich greife sie zu Beginn der nächsten Session noch einmal explizit auf.\nWichtig: Bitte denkt unbedingt daran die Aufgaben zur Vorbereitung auf Tag 2 zu machen - sonst geht das didaktische Konzept des Kurses nicht auf.\n\n\n\n\n\nReferences\n\nWickham, H., Çetinkaya-Rundel, M. and Grolemund, G. (2023) R for data science: Import, tidy, transform, visualize, and model data, 2nd edition., Beijing et al.: O’Reilly, available at https://r4ds.hadley.nz/."
+  },
+  {
+    "objectID": "material/Session-03.html",
+    "href": "material/Session-03.html",
+    "title": "Tag 3: Visualisierung",
+    "section": "",
+    "text": "Vorbereitung\nBitte die folgenden Schritte bereits vor unserer Session durchführen und bei Problemen bitte ins Kursforum schreiben.\n\n\nMaterial\n\nSlides und Notizen werden nach dem Termin ergänzt\n\n\n\nNachbereitung\nMit Hilfe der folgenden Materialien könnt ihr die Themen von Tag 3 selbstständig nacharbeiten:"
   }
 ]

@@ -1,0 +1,29 @@
+---
+title: "Tag 2: Daten einlesen und aufbereiten"
+---
+
+# Vorbereitung
+
+*Bitte die folgenden Schritte bereits vor unserer Session durchführen und* *bei Problemen bitte ins* [Kursforum](https://github.com/graebnerc/EinfuehrungR24/discussions) *schreiben.*
+
+-   Video Einführung, Daten Typen und Frames
+-   Videos zum Daten Import und Data Wrangling
+
+# Zeitplan
+
+| Zeit          | Thema                                                   | Bescheibung                                                                                                                                                                                                                                            |
+|--------------|--------------|--------------------------------------------|
+| 9:00 - 9:30   | Fragen und Übungen                                      | Hier klären wir Fragen zu Übungen zu Tag 1 und vertiefen ggf. Konzepte, mit denen ihr Probleme hattet.                                                                                                                                                 |
+| 9:35 - 10:15  | Block 2.1: Einlesen von Daten                           | Anhand von `.csv` Dateien üben wir, wie man mit `data.table::fread()` Daten einzulesen und dabei typische Schwierigkeiten überwinden kann.                                                                                                             |
+| 10:30 - 10:45 | Der Analyse-Workflow und das Konzept von 'tidy data'    | Die Arbeit mit empirischen Daten folgt immer einem bestimmten Ablauf. Die einzelnen Schritte klar zu strukturieren hilft in der Praxis die Übersicht zu behalten. Zentral ist dabei die Aufgabe Rohdaten in so genannte 'tidy data' zu transformieren. |
+| 10:45 - 11:15 | Block 2.2: Data Wrangling                               | Wir klären Fragen zum Video-Input zum Themenbereich 'data wrangling' und lösen in der Gruppe Übungsaufgaben.                                                                                                                                           |
+| 11:30 - 12:00 | Block 2.3.: Data Manipulation                           | Wir klären Fragen zum Video-Input zum Themenbereich 'data manipulation' und lösen in der Gruppe Übungsaufgaben.                                                                                                                                        |
+| 12:00 - 12:15 | Ausblick, Fragen und Erläuterung der Take-Home Aufgaben |                                                                                                                                                                                                                                                        |
+
+# Material
+
+-   Slides und Notizen werden nach dem Termin ergänzt
+
+# Nachbereitung
+
+Mit Hilfe der folgenden Materialien könnt ihr die Themen von Tag 2 selbstständig nacharbeiten:

@@ -5,7 +5,7 @@ project:
   render:
     - "index.qmd"
     - "material/index.qmd"
-    - "material/Session-01.qmd"
+    - "material/Session-0*.qmd"
 website:
   title: "Einführung in R (FS2024)"
   page-navigation: true
@@ -25,6 +25,12 @@ website:
           text: "⁉ Übersicht und Infos"
         - href: material/Session-01.qmd
           text: "Tag 1"
+        - href: material/Session-02.qmd
+          text: "Tag 2"
+        - href: material/Session-03.qmd
+          text: "Tag 3"
+        - href: material/Session-04.qmd
+          text: "Tag 4"
 
   navbar:
     background: primary
@@ -55,6 +61,3 @@ format:
 
 bibliography: references/references.bib
 csl: references/jepp.csl
-
-editor: visual
-
