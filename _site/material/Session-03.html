@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.3.340">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -58,8 +92,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-submit-button-title": "Submit"
   }
 }</script>
 
@@ -180,6 +213,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#vorbereitung" id="toc-vorbereitung" class="nav-link active" data-scroll-target="#vorbereitung">Vorbereitung</a></li>
+  <li><a href="#zeitplan" id="toc-zeitplan" class="nav-link" data-scroll-target="#zeitplan">Zeitplan</a></li>
   <li><a href="#material" id="toc-material" class="nav-link" data-scroll-target="#material">Material</a></li>
   <li><a href="#nachbereitung" id="toc-nachbereitung" class="nav-link" data-scroll-target="#nachbereitung">Nachbereitung</a></li>
   </ul>
@@ -214,6 +248,59 @@ ul.task-list li input[type="checkbox"] {
 <section id="vorbereitung" class="level1">
 <h1>Vorbereitung</h1>
 <p><em>Bitte die folgenden Schritte bereits vor unserer Session durchführen und</em> <em>bei Problemen bitte ins</em> <a href="https://github.com/graebnerc/EinfuehrungR24/discussions">Kursforum</a> <em>schreiben.</em></p>
+<ul>
+<li>Postet mögliche Anwendungsgebiete für Datenvisualisierungen aus eurer Praxis in das <a href="https://github.com/graebnerc/EinfuehrungR24/discussions">Kursforum</a>. Wir werden ausgewählte Vorschläge dann gemeinsam bearbeiten.</li>
+<li>Lest euch das <a href="../tutorials/visualization">Tutorial zur Datenvisualisierung</a> einmal durch. Wir gehen durch die einzelnen Schritte aber auch nochmal gemeinsam durch, dennoch erleichter das vorherige Lesen das Verständnis enorm</li>
+</ul>
+</section>
+<section id="zeitplan" class="level1">
+<h1>Zeitplan</h1>
+<table class="table">
+<colgroup>
+<col style="width: 4%">
+<col style="width: 11%">
+<col style="width: 83%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Zeit</th>
+<th>Thema</th>
+<th>Beschreibung</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>9:00-9:45</td>
+<td>Übungen und Wiederholung</td>
+<td>Hier klären wir Fragen zu Übungen zu Tag 2 und vertiefen ggf. Konzepte, mit denen ihr Probleme hattet.</td>
+</tr>
+<tr class="even">
+<td>10:00-10:15</td>
+<td>Theorie der Visualisierung</td>
+<td>Wir starten mit einer kurzen Einführung zum Themenfeld, in dem es darum geht welche Arten von Visualisierungen es gibt, wofür diese jeweils geeignet sind und wie man die richtige Visualisierung auswählt.</td>
+</tr>
+<tr class="odd">
+<td>10:15-10:30</td>
+<td>Grundidee <code>ggplot2</code>.</td>
+<td>Wir werden vor allem mit dem Paket <code>ggplot2</code> arbeiten; hier geht es darum die prinzipielle Funktion des Pakets einzuführen und die zugrundeliegende Theorie von Abbildungen zu erläutern.</td>
+</tr>
+<tr class="even">
+<td>10:45-11:30</td>
+<td>Typische Beispiele und Rezepte</td>
+<td>Wie entwickeln gemeinsam Abbildungen für typische Anwendungsfälle und wollen dabei insbesondere lernen wie wir unseren Code immer wieder aufs Neue verwenden und anpassen können und wie wir mit Vorlagen aus dem Internet arbeiten.</td>
+</tr>
+<tr class="odd">
+<td>11:35-12:00</td>
+<td>Spezielle Anwendungsfälle</td>
+<td>Die Teilnehmer:innen sollten im Vorhinein Anwendungsfälle aus der Praxis vorschlagen, die wir hier gemeinsam bearbeiten.</td>
+</tr>
+<tr class="even">
+<td>12:00-12:15</td>
+<td>Abschluss und offene Fragen</td>
+<td>Hier klären wir alle möglichen offenen Fragen zum Kurs und sprechen über einen möglichen vierten Termin.</td>
+</tr>
+</tbody>
+</table>
 </section>
 <section id="material" class="level1">
 <h1>Material</h1>
@@ -224,6 +311,33 @@ ul.task-list li input[type="checkbox"] {
 <section id="nachbereitung" class="level1">
 <h1>Nachbereitung</h1>
 <p>Mit Hilfe der folgenden Materialien könnt ihr die Themen von Tag 3 selbstständig nacharbeiten:</p>
+<ul>
+<li><a href="../tutorials/visualization">Tutorial zur Datenvisualisierung</a></li>
+<li><a href="https://www.data-to-viz.com/">from Data to Viz</a>: sehr gute Homepage mit Entscheidungshilfen für den richtigen Plot sowie zahlreichen Rezepten und hilfreichen Erläuterungen.</li>
+<li>Die praktischen Übungen <code>Visualization1</code> aus dem Paket <code>DataScienceExercises</code>:</li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Code um die praktischen Übungen zu starten
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>learnr<span class="sc">::</span><span class="fu">run_tutorial</span>(</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">name =</span> <span class="st">"Visualization1"</span>, </span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">package =</span> <span class="st">"DataScienceExercises"</span>, </span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">shiny_args=</span><span class="fu">list</span>(<span class="st">"launch.browser"</span><span class="ot">=</span><span class="cn">TRUE</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
+</div>
+<p>Bei Fragen, insbesondere wenn es Probleme bei den Übungen gibt, nutzt bitte das <a href="https://github.com/graebnerc/EinfuehrungR24/discussions">Kursforum</a>.</p>
 
 
 </section>

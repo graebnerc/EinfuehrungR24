@@ -6,8 +6,118 @@ title: "Tag 2: Daten einlesen und aufbereiten"
 
 *Bitte die folgenden Schritte bereits vor unserer Session durchführen und* *bei Problemen bitte ins* [Kursforum](https://github.com/graebnerc/EinfuehrungR24/discussions) *schreiben.*
 
--   Video Einführung, Daten Typen und Frames
--   Videos zum Daten Import und Data Wrangling
+-   Videos zum [Importieren von Daten](https://www.youtube.com/playlist?list=PLZDawQMrG1RK05hizCTxDROrbvdACAy0h) und der [Datenaufbereitung](https://www.youtube.com/playlist?list=PLZDawQMrG1RIzp07hiVKmu6wUs8tqdKod)
+
+::: {.callout-note collapse="true"}
+## Videos zum Importieren von Daten
+
+```{=html}
+<div class="embed-container">
+<iframe width="370" height="208" src="https://www.youtube.com/embed/8MTAs3u5OR0?si=L80LA5tWMwUg7Ewk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+```
+
+```{=html}
+<div class="embed-container">
+<iframe width="370" height="208" src="https://www.youtube.com/embed/7mmwaqC3qRg?si=LNU51ETVRqvSOgTY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+```
+
+```{=html}
+<div class="embed-container">
+<iframe width="370" height="208" src="https://www.youtube.com/embed/GNpQKsygB30?si=M1A2hLTJkzxhvMBC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+```
+
+```{=html}
+<div class="embed-container">
+<iframe width="370" height="208" src="https://www.youtube.com/embed/L_OASuntwGs?si=417PTG3nCdmG32RQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+```
+
+```{=html}
+<div class="embed-container">
+<iframe width="370" height="208" src="https://www.youtube.com/embed/mn581HEFW-Y?si=8s-MJh4WHTYAYTWB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+```
+
+```{=html}
+<div class="embed-container">
+<iframe width="370" height="208" src="https://www.youtube.com/embed/OJFa10WMVuM?si=Qlq3LJc0jyXD1SGP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+```
+
+```{=html}
+<div class="embed-container">
+<iframe width="370" height="208" src="https://www.youtube.com/embed/vuyeUB6RGVU?si=dINcsJuyHgvdNP9P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+``` 
+
+```{=html}
+<div class="embed-container">
+<iframe width="370" height="208" src="https://www.youtube.com/embed/VPUBZg97Zzo?si=Ab1rXJeeu8QaECYZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+``` 
+
+:::
+
+::: {.callout-note collapse="true"}
+## Videos zur Datenaufbereitung
+
+```{=html}
+<div class="embed-container">
+<iframe width="370" height="208" src="https://www.youtube.com/embed/0MMPyRCEufg?si=wODXoBKkK_7uqy0n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+```
+
+```{=html}
+<div class="embed-container">
+<iframe width="370" height="208" src="https://www.youtube.com/embed/OdCcBWHJKvU?si=Q9doQYZFnodFnI6E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+```
+
+```{=html}
+<div class="embed-container">
+<iframe width="370" height="208" src="https://www.youtube.com/embed/9L0xAgymcKo?si=lSlKxnPq_OsCtxrg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+```
+
+```{=html}
+<div class="embed-container">
+<iframe width="370" height="208" src="https://www.youtube.com/embed/7Sp1U0CLlts?si=ffij8rCZLlXMkqBq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+```
+
+```{=html}
+<div class="embed-container">
+<iframe width="370" height="208" src="https://www.youtube.com/embed/khegEBj6Bqk?si=9RnXuia3lolgYPJF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+```
+
+```{=html}
+<div class="embed-container">
+<iframe width="370" height="208" src="https://www.youtube.com/embed/K4MPQkRZUhw?si=aneKHgSZnH8Y2ZUb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+```
+
+```{=html}
+<div class="embed-container">
+<iframe width="370" height="208" src="https://www.youtube.com/embed/HGkrF-_tvog?si=dpqO9urb1uRIdhwy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+```
+
+```{=html}
+<div class="embed-container">
+<iframe width="370" height="208" src="https://www.youtube.com/embed/1fLZoRsSi-M?si=RBLqN0weVmH_g7kX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+```
+
+```{=html}
+<div class="embed-container">
+<iframe width="370" height="208" src="https://www.youtube.com/embed/gaA2j6CLVRQ?si=QHvM2x337ZYk_PnO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+```
+:::
 
 # Zeitplan
 
@@ -27,3 +137,51 @@ title: "Tag 2: Daten einlesen und aufbereiten"
 # Nachbereitung
 
 Mit Hilfe der folgenden Materialien könnt ihr die Themen von Tag 2 selbstständig nacharbeiten:
+
+**Block 2.1: Einlesen von Daten**
+
+- Die auch zur Vorbereitung genutzen Videos
+- Das [Tutorial zum Einlesen und Speichern von Daten](/tutorials/importing-exporting-data/index.qmd)
+- Die praktischen Übungen `DataImport` aus dem Paket `DataScienceExercises`
+
+**TBA**
+
+**Block 2.2 & Block 2.3: Datenaufbereitung**
+
+- Die auch zur Vorbereitung genutzen Videos
+- Das [Tutorial zum Thema Datenaufbereitung](/tutorials/data-preparation/index.qmd)
+- Die praktischen Übungen `Wrangling1` aus dem Paket `DataScienceExercises`:
+
+::: {.callout-tip collapse="true"}
+## Code um die praktischen Übungen zu starten
+
+```{r}
+#| eval: false
+learnr::run_tutorial(
+  name = "Wrangling1", 
+  package = "DataScienceExercises", 
+  shiny_args=list("launch.browser"=TRUE))
+```
+:::
+
+- Wer noch weitere Übungen zum Thema "Data Wrangling" sucht, kann sich die
+praktischen Übungen `Wrangling2` aus dem Paket `DataScienceExercises` anschauen:
+
+::: {.callout-tip collapse="true"}
+## Weitere Übungen zum Thema Data Wrangling
+
+```{r}
+#| eval: false
+learnr::run_tutorial(
+  name = "Wrangling2", 
+  package = "DataScienceExercises", 
+  shiny_args=list("launch.browser"=TRUE))
+```
+:::
+
+Bei Fragen, insbesondere wenn es Probleme bei den Übungen gibt, nutzt bitte das [Kursforum](https://github.com/graebnerc/EinfuehrungR24/discussions). Die Fragen kann ich entweder direkt beantworten, oder ich greife sie zu Beginn der nächsten Session noch einmal explizit auf.
+
+**Wichtig:** *Bitte denkt unbedingt daran die Aufgaben zur Vorbereitung auf* *Tag 3 zu machen - sonst geht das didaktische Konzept des* *Kurses nicht auf.*
+
+
+

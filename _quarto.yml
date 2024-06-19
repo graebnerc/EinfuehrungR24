@@ -6,6 +6,8 @@ project:
     - "index.qmd"
     - "material/index.qmd"
     - "material/Session-0*.qmd"
+    - "tutorials/*.qmd"
+    - "tutorials/*/*.qmd"
 website:
   title: "Einführung in R (FS2024)"
   page-navigation: true

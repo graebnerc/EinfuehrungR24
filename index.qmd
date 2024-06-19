@@ -46,7 +46,7 @@ Die Termine finden jeweils 9:00 - 12:15 im Raum RIG 717 auf dem Campus statt.
 
 -   Optionaler Extratermin zur Diskussion von aufgekommenen Fragen
 
-Genauere Infos gibt es auf den Seiten im Bereich 'Material'.
+Genauere Infos gibt es auf den Seiten im Bereich [Material](/material/index.qmd).
 
 # 📬 Forum
 

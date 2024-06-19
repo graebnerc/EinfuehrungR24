@@ -52,6 +52,15 @@ Spezifischere Referenzen zu den einzelnen Workshop-Tagen werden auf den jeweilig
 
 ## Tag 3
 
+| Zeit        | Thema                          | Beschreibung                                                                                                                                                                                                                         |
+|-------------|--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 9:00-9:45   | Übungen und Wiederholung       | Hier klären wir Fragen zu Übungen zu Tag 2 und vertiefen ggf. Konzepte, mit denen ihr Probleme hattet.                                                                                                                               |
+| 10:00-10:15 | Theorie der Visualisierung     | Wir starten mit einer kurzen Einführung zum Themenfeld, in dem es darum geht welche Arten von Visualisierungen es gibt, wofür diese jeweils geeignet sind und wie man die richtige Visualisierung auswählt.                          |
+| 10:15-10:30 | Grundidee ggplot2              | Wir werden vor allem mit dem Paket ggplot2 arbeiten; hier geht es darum die prinzipielle Funktion des Pakets einzuführen und die zugrundeliegende Theorie von Abbildungen zu erläutern.                                              |
+| 10:45-11:30 | Typische Beispiele und Rezepte | Wie entwickeln gemeinsam Abbildungen für typische Anwendungsfälle und wollen dabei insbesondere lernen wie wir unseren Code immer wieder aufs Neue verwenden und anpassen können und wie wir mit Vorlagen aus dem Internet arbeiten. |
+| 11:35-12:00 | Spezielle Anwendungsfälle      | Die Teilnehmer:innen sollten im Vorhinein Anwendungsfälle aus der Praxis vorschlagen, die wir hier gemeinsam bearbeiten.                                                                                                             |
+| 12:00-12:15 | Abschluss und offene Fragen    | Hier klären wir alle möglichen offenen Fragen zum Kurs und sprechen über einen möglichen vierten Termin.       
+
 ## Tag 4
 
 Dieser Termin wird mehrere Wochen nach dem letzten Termin stattfinden und

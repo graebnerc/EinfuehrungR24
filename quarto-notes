@@ -1,0 +1,6 @@
+      - href: material/kursplan.qmd
+        text: "🗓 Kursplan"
+      - section: "️📂 Material"
+        contents:
+         - href: 2024Spring/material/index.qmd
+           text: Overview
