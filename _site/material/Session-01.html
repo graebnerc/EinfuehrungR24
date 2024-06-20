@@ -314,29 +314,34 @@ Direkter Zugriff auf die Videos
 </thead>
 <tbody>
 <tr class="odd">
-<td>9:00 - 9:30</td>
+<td>8:15 - 8:45</td>
 <td>Installationsassistenz (optional)</td>
-<td>Optional, nur für Teilnehmer:innen, die Probleme bei der Installation hatten. Bitte meldet euch vorab per E-Mail oder im <a href="https://github.com/graebnerc/EinfuehrungR24/discussions">Kursforum</a> ob und ja in welcher Richtung ein Bedarf besteht. Für alle, die keine Probleme hatten beginnt der Kurs erst um 9:45.</td>
+<td>Optional, nur für Teilnehmer:innen, die Probleme bei der Installation hatten. Bitte meldet euch vorab per E-Mail oder im <a href="https://github.com/graebnerc/EinfuehrungR24/discussions">Kursforum</a> ob und ja in welcher Richtung ein Bedarf besteht. Für alle, die keine Probleme hatten beginnt der Kurs erst um 9:00.</td>
 </tr>
 <tr class="even">
-<td>9:45 - 10:15</td>
+<td>9:00 - 9:30</td>
 <td>Block 1.1: Einleitung und Vorstellung</td>
 <td>Hier stellen sich alle Teilnehmer:innen und ihre Bedarfe vor und das Kursprogramm wird kurz erläutert.</td>
 </tr>
 <tr class="odd">
-<td>10:15 - 10:45</td>
+<td>9:30 - 10:00</td>
 <td>Block 1.2: Grundlagen der Programmiersprache R</td>
-<td>Hier beschäftigen wir uns damit was eine Programmiersprache eigentlich ist, in welcher Hinsicht R besonders ist und was das für die Praxis bedeutet. In diesem Kontext lernen wir auch was es mit Paketen und den unterschiedlichen R Dialekten auf sich hat.</td>
+<td>Hier beschäftigen wir uns damit was eine Programmiersprache eigentlich ist, in welcher Hinsicht R besonders ist und was das für die Praxis bedeutet. In diesem Kontext lernen wir auch was es mit Paketen und den unterschiedlichen R Dialekten auf sich hat und wie man R als Taschenrechner verwenden kann.</td>
 </tr>
 <tr class="even">
-<td>11:00 - 11:45</td>
+<td>10:15 - 11:00</td>
 <td>Block 1.3: Projektmanagement für R Projekte</td>
 <td>Wir lernen wie wir ein Forschungsprojekt vorbereiten, welche Ordnerstruktur wir erstellen sollten und wo unsere Daten, Skripte und Outputs gespeichert werden sollten, damit unser Projekt transparent, reproduzierbar und gut zu dokumentieren ist.</td>
 </tr>
 <tr class="odd">
-<td>11:45 - 12:00</td>
+<td>11:15 - 12:00</td>
+<td>Block 1.4: Grundlegende Datentypen</td>
+<td>Abschließend lernen wir noch die wichtigsten Datentypen kennen und wo deren Unterscheidung in der Praxis relevant ist.</td>
+</tr>
+<tr class="even">
+<td>12:00 - 12:15</td>
+<td>Abschluss</td>
 <td>Ausblick, Fragen und Erläuterung der Take-Home Aufgaben</td>
-<td></td>
 </tr>
 </tbody>
 </table>
@@ -404,6 +409,60 @@ Code um die praktischen Übungen zu starten
 </div>
 </div>
 </div>
+<p><strong>Block 1.4: Grundlegende Datentypen</strong></p>
+<ul>
+<li>Tutorial zu <a href="../tutorials/obj-types-i-functions/index.html">Funktionen</a>, allerdings ohne den Teil “Defining your own functions”</li>
+<li>Tutorial zu <a href="../tutorials/obj-types-ii-vectors/index.html">Vektoren</a></li>
+<li>Bei Bedarf gibt es hierzu auch eine korrespondierende Liste von <a href="https://www.youtube.com/playlist?list=PLZDawQMrG1RJ1oZwuZtiG0fOWSOgyZhYC">Lehrvideos</a>.</li>
+<li>Den Abschnitt zu DataFrames aus dem Tutorial zu <a href="../tutorials/obj-types-iii-adv/index.html">komplexen Datentypen</a></li>
+<li>Auch hierzu gibt es bei Bedarf <a href="https://www.youtube.com/playlist?list=PLZDawQMrG1RK0Ia3Y3AFqf_FP59GJnIP7">Lehrvideos</a>, die Bezüge und Videos zu Faktoren können übersprungen werden</li>
+<li>Die praktischen Übungen <code>ObjectTypes1</code> aus dem Paket <code>DataScienceExercises</code>:<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Code um die praktischen Übungen zu starten
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>learnr<span class="sc">::</span><span class="fu">run_tutorial</span>(</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">name =</span> <span class="st">"ObjectTypes1"</span>, </span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">package =</span> <span class="st">"DataScienceExercises"</span>, </span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">shiny_args=</span><span class="fu">list</span>(<span class="st">"launch.browser"</span><span class="ot">=</span><span class="cn">TRUE</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
+</div>
+<ul>
+<li>Die praktischen Übungen <code>ObjectTypes2</code> aus dem Paket <code>DataScienceExercises</code>, sofern sie sich auf <code>data.frame</code>s und <code>tibble</code>s beziehen.</li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Code um die praktischen Übungen zu starten
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>learnr<span class="sc">::</span><span class="fu">run_tutorial</span>(</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">name =</span> <span class="st">"ObjectTypes2"</span>, </span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">package =</span> <span class="st">"DataScienceExercises"</span>, </span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">shiny_args=</span><span class="fu">list</span>(<span class="st">"launch.browser"</span><span class="ot">=</span><span class="cn">TRUE</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
+</div>
 <p>Bei Fragen, insbesondere wenn es Probleme bei den Übungen gibt, nutzt bitte das <a href="https://github.com/graebnerc/EinfuehrungR24/discussions">Kursforum</a>. Die Fragen kann ich entweder direkt beantworten, oder ich greife sie zu Beginn der nächsten Session noch einmal explizit auf.</p>
 <p><strong>Wichtig:</strong> <em>Bitte denkt unbedingt daran die Aufgaben zur Vorbereitung auf</em> <em>Tag 2 zu machen - sonst geht das didaktische Konzept des</em> <em>Kurses nicht auf.</em></p>
 
@@ -411,11 +470,17 @@ Code um die praktischen Übungen zu starten
 
 </section>
 
+
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
 <div id="ref-r4ds" class="csl-entry" role="listitem">
 Wickham, H., Çetinkaya-Rundel, M. and Grolemund, G. (2023) <em>R for data science: Import, tidy, transform, visualize, and model data</em>, 2nd edition., Beijing et al.: O’Reilly, available at <a href="https://r4ds.hadley.nz/">https://r4ds.hadley.nz/</a>.
 </div>
-</div></section></div></main> <!-- /main -->
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Die Übungen zum Themenbereich “eigene Funktionen definieren” können ignoriert werden.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
