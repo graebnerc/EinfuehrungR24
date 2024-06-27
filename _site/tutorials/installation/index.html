@@ -203,7 +203,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#register-for-the-necessary-services" id="toc-register-for-the-necessary-services" class="nav-link" data-scroll-target="#register-for-the-necessary-services">Register for the necessary services</a>
   <ul class="collapse">
   <li><a href="#github" id="toc-github" class="nav-link" data-scroll-target="#github">Github</a></li>
-  <li><a href="#netlify" id="toc-netlify" class="nav-link" data-scroll-target="#netlify">Netlify</a></li>
   </ul></li>
   <li><a href="#next-steps" id="toc-next-steps" class="nav-link" data-scroll-target="#next-steps">Next steps</a></li>
   </ul>
@@ -243,9 +242,8 @@ ul.task-list li input[type="checkbox"] {
 <li>R-Studio</li>
 <li>Git</li>
 <li>Github</li>
-<li>Netlify</li>
 </ul>
-<p>You will need to install the software and register for these services on your own. While we will use one session for joint troubleshooting, it is absolutely necessary that you do your best to install the software on your own before that date. To this end, this document is meant to provide you with all the information needed. If you have questions, <em>please use the Moodle forum</em>. It is very unlikely that you are the only person having a particular problem. Maybe others can already help you out, and if not, all should benefit from the solution we find for your problem together.</p>
+<p>You will need to install the software and register for these services on your own. While we will use one session for joint troubleshooting, it is absolutely necessary that you do your best to install the software on your own before that date. To this end, this document is meant to provide you with all the information needed. If you have questions, <a href="https://github.com/graebnerc/EinfuehrungR24/discussions">please use the course forum</a>. It is very unlikely that you are the only person having a particular problem. Maybe others can already help you out, and if not, all should benefit from the solution we find for your problem together.</p>
 <p>Please also note that there is a separate tutorial on how to install the packages (a.k.a. R extensions) that we are going to use over the semester. Its best to continue with this tutorial on <a href="../../tutorial/installing-packages/">installing the required R packages</a> directly after you have complete this one.</p>
 </section>
 <section id="an-overview-over-the-apps-and-services-we-will-be-using---and-why" class="level1">
@@ -253,7 +251,6 @@ ul.task-list li input[type="checkbox"] {
 <p><a href="https://www.r-project.org/">R</a> is the programming language we are using. Installing <code>R</code> basically gives your computer the ability to understand commands you will issue to it using the language <code>R</code>. <a href="https://rstudio.github.io/">R-Studio</a> is an application that facilitates the development of <code>R</code> code. It is a so called <em>Integrated Development Environment</em> (IDE). You may think of it as a fancy editor, which not only allows you to write programs in <code>R</code> using a more elaborated text editor, but simultaneously lets you preview the graphs you are designing, or the reports you are writing. Because R-Studio facilitates the use of <code>R</code>, it is important to install R <em>first</em>, and then install R-Studio <em>second</em>.</p>
 <p><a href="https://git-scm.com/">Git</a> is a so called <em>version control system</em> (VCS). It allows you to keep track of different versions of your scripts without saving them under different names. In other words, if you use Git, you can dispense of saving <code>Script-v1.R</code>, <code>Script-v2.R</code> and <code>Script-v3.R</code>, but instead only keep <code>Script.R</code> and save the different versions in the background, together with some comments about what you have changed. Moreover, it facilitates the joint work on the same document, something that is tremendously helpful for group works. While we will not learn how to use Git (I will provide some optional tutorials, though), it is important to install it since many user-written features of R are distributed in a way that relies on Git.</p>
 <p><a href="https://github.com/">Github</a> can be thought of as a server for Git. <code>R</code> is an open source programming language with a very active community. Many people are constantly developing new features for <code>R</code>. For instance, if a new prediction algorithm get developed, some people will soon write a so called <a href="https://r-pkgs.org/">R-package</a> that implements this algorithm in <code>R</code>. Then you as an R user can download this package and use the new algorithm. This way, <code>R</code> is unlikely to ever become outdated. Since most developers use Git when developing the packages, they often distribute the programs in a way that aligns well with the use of Git. And the most prominent way is Git<em>hub</em>. Thus, you can view the source code for almost all <code>R</code> packages you will be using via Github. Github is free, and all you need is to register!</p>
-<p>The final service we will be using is <a href="https://www.netlify.com/">Netlify</a>. It is an easy way to publish reports and host small websites. We will use it such that you can create reproducible reports and present them in a visually appealing way. Given the ease of use, it is a great tool if you want to polish your results up visually and send them to friends or colleagues who might not even use R themselves.</p>
 </section>
 <section id="installation-guidelines" class="level1">
 <h1>Installation guidelines</h1>
@@ -342,10 +339,6 @@ updateR(TRUE)</code></pre>
 <section id="github" class="level2">
 <h2 class="anchored" data-anchor-id="github">Github</h2>
 <p>This is easy. Just visit <a href="https://github.com/">https://github.com/</a> and sign up using your email account.</p>
-</section>
-<section id="netlify" class="level2">
-<h2 class="anchored" data-anchor-id="netlify">Netlify</h2>
-<p>This is easy as well. Visit <a href="https://www.netlify.com/">https://www.netlify.com/</a> and click on <code>Sign up</code> in the upper right of the webpage. You can now either create a Netlify account by clicking on <code>Email</code> and register a new email address, or you can link Netlify to one of the other accounts you might already have. I personally, for instance, linked Netlify to my Github account.</p>
 </section>
 </section>
 <section id="next-steps" class="level1">

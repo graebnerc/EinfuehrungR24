@@ -46,7 +46,7 @@ if (isFALSE(here_installed)){
     "Please execute the following comment and make a screenshop from ",
     "resulting error message:\n",
     "install.packages('here')\n",
-    "Then post the screenshot in the Moodle forum!"))
+    "Then post the screenshot in the course forum!"))
 } else {
   cat("Package here has been installed successfully!")
 }

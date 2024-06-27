@@ -56,14 +56,14 @@ During this course we will use the following software and services:
 * R-Studio
 * Git
 * Github
-* Netlify
 
 You will need to install the software and register for these services on
 your own. While we will use one session for joint 
 troubleshooting, it is absolutely necessary that you do your best to install 
 the software on your own before that date. 
 To this end, this document is meant to provide you with all the information
-needed. If you have questions, *please use the Moodle forum*. It is very 
+needed. If you have questions, 
+[please use the course forum](https://github.com/graebnerc/EinfuehrungR24/discussions). It is very 
 unlikely that you are the only person having a particular problem. Maybe
 others can already help you out, and if not, all should benefit from the 
 solution we find for your problem together. 
@@ -114,13 +114,6 @@ Git when developing the packages, they often distribute the programs in a way
 that aligns well with the use of Git. And the most prominent way is Git*hub*.
 Thus, you can view the source code for almost all `R` packages you will be using
 via Github. Github is free, and all you need is to register!
-
-The final service we will be using is [Netlify](https://www.netlify.com/). 
-It is an easy way to publish
-reports and host small websites. We will use it such that you can create 
-reproducible reports and present them in a visually appealing way. Given the
-ease of use, it is a great tool if you want to polish your results up visually
-and send them to friends or colleagues who might not even use R themselves.
 
 
 # Installation guidelines
@@ -321,15 +314,6 @@ just follow the instructions from
 
 This is easy. Just visit [https://github.com/](https://github.com/) and 
 sign up using your email account. 
-
-## Netlify
-
-This is easy as well. Visit [https://www.netlify.com/](https://www.netlify.com/)
-and click on `Sign up` in the upper right of the webpage.
-You can now either create a Netlify account by clicking on `Email` and 
-register a new email address, or you can link Netlify to one of the other
-accounts you might already have. I personally, for instance, linked 
-Netlify to my Github account.
 
 # Next steps
 
