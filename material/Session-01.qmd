@@ -51,7 +51,12 @@ Zur Installation von R und R-Studio gibt es auch [englischsprachige Videos](http
 
 # Material
 
--   Slides und Notizen werden nach dem Termin ergänzt
+- [Slides](/material/Session-01-Slides.pdf)
+
+::: {.callout-note collapse="true"}
+## Skripte und Lösungen für die Aufgaben
+<script src="https://gist.github.com/graebnerc/2c8463e8246364013cbd3527966a9ee6.js"></script>
+:::
 
 # Nachbereitung
 
