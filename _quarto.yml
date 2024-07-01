@@ -39,7 +39,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: material.qmd
+      - href: material/index.qmd
         text: Material
   page-footer:
     background: light
