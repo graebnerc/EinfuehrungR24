@@ -132,7 +132,9 @@ title: "Tag 2: Daten einlesen und aufbereiten"
 
 # Material
 
--   Slides und Notizen werden nach dem Termin ergänzt
+- Slides und Notizen werden nach dem Termin ergänzt
+- [Daten](data/Day2_fread_expls.zip) für Aufgaben aus dem Bereich Datenimport
+- [Daten](data/Day2_DataPrepExData.zip) für Aufgaben aus dem Bereich Datenaufbereitung
 
 # Nachbereitung
 
