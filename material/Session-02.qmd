@@ -121,7 +121,7 @@ title: "Tag 2: Daten einlesen und aufbereiten"
 
 # Zeitplan
 
-| Zeit          | Thema                                                   | Bescheibung                                                                                                                                                                                                                                            |
+| Zeit          | Thema                                                   | Beschreibung                                                                                                                                                                                                                                            |
 |--------------|--------------|--------------------------------------------|
 | 9:00 - 9:30   | Fragen und Übungen                                      | Hier klären wir Fragen zu Übungen zu Tag 1 und vertiefen ggf. Konzepte, mit denen ihr Probleme hattet.                                                                                                                                                 |
 | 9:35 - 10:15  | Block 2.1: Einlesen von Daten                           | Anhand von `.csv` Dateien üben wir, wie man mit `data.table::fread()` Daten einzulesen und dabei typische Schwierigkeiten überwinden kann.                                                                                                             |
@@ -132,11 +132,21 @@ title: "Tag 2: Daten einlesen und aufbereiten"
 
 # Material
 
-- Slides und Notizen werden nach dem Termin ergänzt
+- [Slides](/material/Session-02-Slides.pdf)
 - [Daten](data/Day2_fread_expls.zip) für Aufgaben aus dem Bereich Datenimport
 - [Daten](data/Day2_DataPrepExData.zip) für Aufgaben aus dem Bereich Datenaufbereitung
 
+::: {.callout-note collapse="true"}
+## Skripte und Lösungen für die Aufgaben
+<script src="https://gist.github.com/graebnerc/82fb7417e43d6cd0a0e08973751360cf.js"></script>
+:::
+
+
 # Nachbereitung
+
+
+> **Notwendige Vorbereitung für den dritten Tag:**
+Am dritten Tag werden wir das Thema abschließen. Bitte macht dazu selbstständig die Aufgaben auf den Slides 41-43 und postet eventuelle Frage/Probleme im [Kursforum](https://github.com/graebnerc/EinfuehrungR24/discussions). Danach werde ich am dritten Tag die Slides zu den Themen 'Pipes' und 'Selection helper' vorstellen und wir machen die Final Exercise 1 und 2 gemeinsam. Bitte bereitet diese beiden Übungen nach Möglichkeit schon vor!
 
 Mit Hilfe der folgenden Materialien könnt ihr die Themen von Tag 2 selbstständig nacharbeiten:
 
@@ -145,8 +155,6 @@ Mit Hilfe der folgenden Materialien könnt ihr die Themen von Tag 2 selbstständ
 - Die auch zur Vorbereitung genutzen Videos
 - Das [Tutorial zum Einlesen und Speichern von Daten](/tutorials/importing-exporting-data/index.qmd)
 - Die praktischen Übungen `DataImport` aus dem Paket `DataScienceExercises`
-
-**TBA**
 
 **Block 2.2 & Block 2.3: Datenaufbereitung**
 

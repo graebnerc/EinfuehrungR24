@@ -40,7 +40,7 @@ Zur Installation von R und R-Studio gibt es auch [englischsprachige Videos](http
 
 # Zeitplan
 
-| Zeit          | Thema                                                   | Bescheibung                                                                                                                                                                                                                                                                                                        |
+| Zeit          | Thema                                                   | Beschreibung                                                                                                                                                                                                                                                                                                        |
 |-----------|-----------|-------------------------------------------------|
 | 8:15 - 8:45   | Installationsassistenz (optional)                       | Optional, nur für Teilnehmer:innen, die Probleme bei der Installation hatten. Bitte meldet euch vorab per E-Mail oder im [Kursforum](https://github.com/graebnerc/EinfuehrungR24/discussions) ob und ja in welcher Richtung ein Bedarf besteht. Für alle, die keine Probleme hatten beginnt der Kurs erst um 9:00. |
 | 9:00 - 9:30  | Block 1.1: Einleitung und Vorstellung                   | Hier stellen sich alle Teilnehmer:innen und ihre Bedarfe vor und das Kursprogramm wird kurz erläutert.                                                                                                                                                                                                             |
