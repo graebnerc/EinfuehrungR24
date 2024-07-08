@@ -6,6 +6,7 @@ title: "Tag 3: Visualisierung"
 
 *Bitte die folgenden Schritte bereits vor unserer Session durchführen und* *bei Problemen bitte ins* [Kursforum](https://github.com/graebnerc/EinfuehrungR24/discussions) *schreiben.*
 
+- Erledigt die unter "Nachbereitung" genannten Übungen vom zweiten Tag.
 - Postet mögliche Anwendungsgebiete für Datenvisualisierungen aus eurer Praxis in das [Kursforum](https://github.com/graebnerc/EinfuehrungR24/discussions). Wir werden ausgewählte Vorschläge dann gemeinsam bearbeiten.
 - Lest euch das [Tutorial zur Datenvisualisierung](/tutorials/visualization) einmal durch. Wir gehen durch die einzelnen Schritte aber auch nochmal gemeinsam durch, dennoch erleichter das vorherige Lesen das Verständnis enorm
 
@@ -13,7 +14,7 @@ title: "Tag 3: Visualisierung"
 
 | Zeit        | Thema                          | Beschreibung                                                                                                                                                                                                                         |
 |-------------|--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 9:00-9:45   | Übungen und Wiederholung       | Hier klären wir Fragen zu Übungen zu Tag 2 und vertiefen ggf. Konzepte, mit denen ihr Probleme hattet.                                                                                                                               |
+| 9:00-9:45   | Übungen und Wiederholung       | Hier klären wir Fragen zu den Übungen zu Tag 2 .                                                                                                                               |
 | 10:00-10:15 | Theorie der Visualisierung     | Wir starten mit einer kurzen Einführung zum Themenfeld, in dem es darum geht welche Arten von Visualisierungen es gibt, wofür diese jeweils geeignet sind und wie man die richtige Visualisierung auswählt.                          |
 | 10:15-10:30 | Grundidee `ggplot2`.           | Wir werden vor allem mit dem Paket `ggplot2` arbeiten; hier geht es darum die prinzipielle Funktion des Pakets einzuführen und die zugrundeliegende Theorie von Abbildungen zu erläutern.                                              |
 | 10:45-11:30 | Typische Beispiele und Rezepte | Wie entwickeln gemeinsam Abbildungen für typische Anwendungsfälle und wollen dabei insbesondere lernen wie wir unseren Code immer wieder aufs Neue verwenden und anpassen können und wie wir mit Vorlagen aus dem Internet arbeiten. |
