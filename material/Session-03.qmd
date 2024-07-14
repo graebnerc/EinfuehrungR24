@@ -24,7 +24,7 @@ title: "Tag 3: Visualisierung"
 # Material
 
 - Slides und Notizen werden nach dem Termin ergänzt
-- [Slides]()
+- [Slides](/material/Session-03-Slides.pdf)
 - Solutions for the [bar plot](Session-03-Example-Barplot) and the [line plot](Session-03-Example-Lineplot) example
 - Project for the two examples
 
