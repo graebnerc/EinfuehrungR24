@@ -1,0 +1,103 @@
+---
+title: "Constructing a line graph"
+format: 
+  pdf: 
+    toc: false
+  html: 
+    toc: false
+execute: 
+  warning: false
+  message: false
+---
+
+The goal here is to use the data from the Stata file `FCEFD.dta` to create a 
+grouped line graph comparing three series (average, small firms, and large firms) 
+over some years. At the year 2008, a vertical line should be added.
+
+The most important part of this figure is to draw a vertical line at 2008 to 
+compare pre- and post-crisis trends.
+
+To accomplish this, we will use the following packages:
+
+```{r}
+here::i_am("material/Session-03-Example-Lineplot.qmd") # Adjust to your case
+library(here)
+library(haven) # to import stata files
+library(dplyr) # to do data manipulation
+library(tidyr) # to use do data wrangling
+library(ggplot2) # for visualization
+library(scales) # for scaling
+```
+
+We first have a look at the data set:
+
+```{r}
+firm_raw <- haven::read_dta(here("material/data/FCEFD.dta"))
+firm_raw <- as_tibble(firm_raw)
+head(firm_raw)
+```
+
+This data is almost ready to use. We just need to make it tidy:
+
+```{r}
+firm_tidy <- firm_raw %>% 
+  pivot_longer(cols = -"year", names_to = "type", values_to = "output")
+head(firm_tidy)
+```
+
+Now we can have a first preview of the plot:
+
+```{r}
+ggplot(
+  data = firm_tidy, 
+  mapping = aes(
+    x=year, y=output, color=type, 
+    linetype = type, shape=type)
+  ) +
+  geom_line() + geom_point() +
+  geom_vline(xintercept = 2008, linetype = "dashed", color = "grey") +
+  theme_linedraw()
+```
+
+This version here has received some visual refinements, and we changed the names
+for the firms beforehand to make the legend more clear:
+
+```{r}
+firm_plot <- firm_tidy %>% 
+  mutate(type=case_match(
+    type,
+    "avr" ~ "Average",
+    "L_firms" ~ "Small firms",
+    "H_firms" ~ "Large firms"
+  )) %>% 
+  ggplot(
+    data = ., 
+    mapping = aes(
+      x=year, y=output, color=type, 
+      linetype = type, shape=type)
+    ) +
+  geom_line() + geom_point() +
+  geom_vline(xintercept = 2008, linetype = "dashed", color = "grey") +
+  scale_y_continuous(labels = label_number(scale = 1000)) +
+  labs(y = "Output in 1000", title = "Firm output", 
+       caption = "Data: FCEFD (2024).") +
+  theme_linedraw() +
+  theme(
+    legend.position = "bottom",
+    legend.title = element_blank(),
+    panel.grid.minor.x = element_blank(),
+    axis.title.x = element_blank(),
+    panel.border = element_blank(),
+    axis.line = element_line(color="black"))
+firm_plot
+```
+
+And, finally, save the plot:
+
+```{r}
+ggsave(
+  plot = firm_plot, 
+  filename = here("material/Day3-Line-plot.pdf"), 
+  width = 6, height = 4)
+```
+
