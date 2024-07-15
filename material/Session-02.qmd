@@ -141,9 +141,16 @@ title: "Tag 2: Daten einlesen und aufbereiten"
 <script src="https://gist.github.com/graebnerc/82fb7417e43d6cd0a0e08973751360cf.js"></script>
 :::
 
+- [Short blog](https://www.tidyverse.org/blog/2023/04/base-vs-magrittr-pipe/) post on different pipes in base R and the package [magrittr](https://magrittr.tidyverse.org/)
+- The package [countrycode](https://github.com/vincentarelbundock/countrycode) 
+is very useful when you work with country codes
+
+::: {.callout-note collapse="true"}
+## Antworten zu den Recap-Fragen zu Tag 2 an Tag 3
+<script src="https://gist.github.com/graebnerc/0b49e7c05049131376eb387a907df00d.js"></script>
+:::
 
 # Nachbereitung
-
 
 > **Notwendige Vorbereitung für den dritten Tag:**
 Am dritten Tag werden wir das Thema abschließen. Bitte macht dazu selbstständig die Aufgaben auf den Slides 41-43 und postet eventuelle Frage/Probleme im [Kursforum](https://github.com/graebnerc/EinfuehrungR24/discussions). Danach werde ich am dritten Tag die Slides zu den Themen 'Pipes' und 'Selection helper' vorstellen und wir machen die Final Exercise 1 und 2 gemeinsam. Bitte bereitet diese beiden Übungen nach Möglichkeit schon vor!

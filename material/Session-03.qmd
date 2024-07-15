@@ -23,10 +23,16 @@ title: "Tag 3: Visualisierung"
 
 # Material
 
-- Slides und Notizen werden nach dem Termin ergänzt
 - [Slides](/material/Session-03-Slides.pdf)
-- Solutions for the [bar plot](Session-03-Example-Barplot) and the [line plot](Session-03-Example-Lineplot) example
-- Project for the two examples
+
+::: {.callout-note collapse="true"}
+## Script on developing the two plots during the session
+
+<script src="https://gist.github.com/graebnerc/7dabd6fb9ddd48354a89da4ac2ea06f3.js"></script>
+
+:::
+
+- Solutions for the [bar plot](Session-03-Example-Barplot) and the [line plot](Session-03-Example-Lineplot) example (will be updated!)
 
 # Nachbereitung
 
